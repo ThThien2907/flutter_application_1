@@ -1,0 +1,2 @@
+/Users/onexway/Documents/source/demo_scan_ocr/android/app/.cxx/Debug/3b5b5n2l/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/onexway/Documents/source/demo_scan_ocr/android/app/.cxx/Debug/3b5b5n2l/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/barcode_scanner_page.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:image/image.dart' as img;
@@ -172,6 +173,25 @@ class _OcrScreenState extends State<OcrScreen> {
                 label: const Text("Chọn ảnh để nhận diện"),
               ),
             ],
+          ),
+          ElevatedButton(
+            onPressed: () async {
+              final result = await Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const BarcodeScannerPage(),
+                ),
+              );
+
+              if (result != null) {
+                // xử lý kết quả
+                print("Barcode: $result");
+                setState(() {
+                  _recognizedText = result.toString();
+                });
+              }
+            },
+            child: const Text("Scan barcode"),
           ),
           const SizedBox(height: 20),
           // Hiển thị kết quả nhận diện
