@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/dev04.oneship/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/dev04.oneship/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/dev04.oneship/OneShip/flutter_application_1/android/app/.cxx/RelWithDebInfo/6epa1534/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/dev04.oneship/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/dev04.oneship/OneShip/flutter_application_1/android/app/.cxx/RelWithDebInfo/6epa1534/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

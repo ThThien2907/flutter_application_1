@@ -1,0 +1,2 @@
+/Users/dev04.oneship/OneShip/flutter_application_1/android/app/.cxx/RelWithDebInfo/6epa1534/x86_64/CMakeFiles/edit_cache.dir
+/Users/dev04.oneship/OneShip/flutter_application_1/android/app/.cxx/RelWithDebInfo/6epa1534/x86_64/CMakeFiles/rebuild_cache.dir
